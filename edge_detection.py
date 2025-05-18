@@ -150,4 +150,4 @@ def edge_detection(image_path, blur_size=3, show_steps=False, save_result=False)
 
 
 if __name__ == "__main__":
-    edge_detection("images/test-3.jpg", blur_size=3, show_steps=False)
+    edge_detection("images/test-1.png", blur_size=3, show_steps=False, save_result=True)
